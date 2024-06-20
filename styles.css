@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #08012a;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.computer-move, .player-move {
+  width: 6.5em;
+  height: 4em;
+  margin: 2.5% auto;
+  position: relative;
+  border: 2px dashed #efefd7;
+  color: #efefd7;
+  background-color: #08012a;
+}
+
+.display {
+  width: 75%;
+  height: 10vh;
+  background-color: #efefd7;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.display p {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#score {
+  color: #efefd7;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.rockBox,
+.paperBox,
+.scissorsBox {
+  width: 15em;
+  height: 5em;
+  display: grid;
+  border: 2px dashed #efefd7;
+}
+
+button {
+  background-color: #08012a;
+  color: #efefd7;
+}
+
+i {
+  margin: 1em;
+}/*# sourceMappingURL=styles.css.map */

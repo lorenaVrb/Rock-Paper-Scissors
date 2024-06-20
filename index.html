@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/90a947b7dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="computer-move"></div>
+
+    <div class="display d-block">
+      <p id="result"></p>
+    </div>
+
+    <div class="player-move"></div>
+
+    <div>
+      <p id="score"></p>
+    </div>
+    
+    <div class="buttonContainer">
+      <div class="rockBox">
+        <button type="button" class="rockButton" onclick="playGame('rock')">
+          <i class="fa-solid fa-hand-fist fa-2xl"></i><br />Rock
+        </button>
+      </div>
+      <div class="paperBox">
+        <button onclick="playGame('paper')">
+          <i class="fa-solid fa-hand fa-2xl"></i><br />Paper
+        </button>
+      </div>
+      <div class="scissorsBox">
+        <button onclick="playGame('scissors')">
+          <i class="fa-solid fa-hand-peace fa-2xl"></i><br />Scissors
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
